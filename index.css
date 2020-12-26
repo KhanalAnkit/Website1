@@ -1,0 +1,114 @@
+body{
+    width: 80vw;
+    margin: auto;
+    background-color:#f1f1f1;
+    font-family: monospace;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;    
+    padding:4px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+nav ul li a:hover{
+    background-color: white;
+    transition: 0.3s linear ;
+    color: black;
+}
+nav{
+    background-color:black;
+    margin:auto;
+    height:40px;
+    width: 500px;
+}
+
+nav ul li {
+    font-size:25px;
+}
+
+nav ul{
+    display:flex;
+    outline: none;
+    justify-content: space-around;
+}
+.button-container{
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-container button{
+    height: 50px;
+    width: 150px;
+    font-size: 1.4em;
+    margin-top: 3px;
+    border-radius:15px;
+    outline: none;
+    background-color: black;
+    color: white;
+    
+}
+.button-container button:hover{
+    background-color:white;
+    color:  black;
+    transition:0.3s linear all
+
+}
+
+.container{
+    width: 500px;
+    height: 450px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(26, 1, 1);
+}
+
+.row1{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    border:1px solid black;
+    
+}
+.row2{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    border:1px solid black;
+}
+.row3{
+    height: 34%;
+    display: flex;
+    width: 100%;
+    border:1px solid black;
+}
+.appleapple{  
+    width: 33%;
+    height: 100%;
+    border:1px solid black;
+}
+.ballball{
+    border:1px solid black;
+    width: 33%;
+    height: 100%;
+    background-size: 100%;
+}
+.catcat{
+    width: 33%;
+    border:1px solid black;
+    height: 100%;
+}
+.dogdog{
+    border:1px solid black;
+    width: 33%;
+    height: 100%;
+    background-size: 100%;
+    
+}
